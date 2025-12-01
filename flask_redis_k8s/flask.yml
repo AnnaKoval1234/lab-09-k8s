@@ -18,7 +18,7 @@ spec:
    spec:
      containers:
      - name: flask
-       image: flask:v5
+       image: flask:v5 # обновила эту строчку
        imagePullPolicy: IfNotPresent
        ports:
        - containerPort: 5000
